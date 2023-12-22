@@ -26,7 +26,12 @@ def index():
             image_bucket = storage_client.get_bucket(
                 'dataset_alphabet')
             filename = request.json['filename']
-            img_blob = image_bucket.blob('predict_uploads/' 'A/', + filename) #SESUAIKAN
+            subfolders = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+                          'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+                          'U', 'V', 'W', 'X', 'Y', 'Z']
+
+            # Menggunakan path atau subfolder saat membuat blob
+            img_blob = image_bucket.blob('/'.join(subfolders) + '/' + filename)
             img_path = BytesIO(img_blob.download_as_bytes())
         except Exception:
             respond = jsonify({'message': 'Error loading image file'})
