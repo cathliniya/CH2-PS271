@@ -7,8 +7,13 @@ HandSpeak is a groundbreaking project in Indonesia that addresses the communicat
 CH2-PS271 Members :
 
 M008BSY0544 - Auriel Azril Ardin - Machine Learning
+
 M179BSX1864 - Dewi Rismawati - Machine Learning
+
 M179BSX1870 - Anissa Maulidyah - Machine Learning
-C183BSX4239 - Putri Cathliniya Diyanti Faliha - Cloud Computin
+
+C183BSX4239 - Putri Cathliniya Diyanti Faliha - Cloud Computing
+
 C183BSX4292 - Fenella Claresta Sismanto - Cloud Computing 
+
 A320BSY2754 - Cahya Kharisma Yokhanan - Mobile Development
